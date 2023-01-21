@@ -146,5 +146,5 @@ function revealMystery(lastMystery) {
     return(lastMystery[0].firstName + ' ' + lastMystery[0].lastName + ' killed Mr.Boddy using the ' + lastMystery[1].name + ' in the ' + lastMystery[2].name + '!!')
     
     }
-    revealMistery()
+
 
