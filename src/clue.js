@@ -143,8 +143,6 @@ function pickMystery() {
 // ITERATION 3
 
 function revealMystery(lastMystery) {
-    return(lastMystery[0].firstName + ' ' + lastMystery[0].lastName + ' killed Mr.Boddy using the ' + lastMystery[1].name + ' in the ' + lastMystery[2].name + '!!')
-    
-    }
-
-
+    let result = (suspectsArray[0].firstName + ' ' + suspectsArray[0].lastName + ' killed Mr.Boddy using the ' + weaponsArray[1].name + ' in the ' + roomsArray[2].name + '!')
+    return result;
+}
